@@ -7,13 +7,13 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 This fantastic view changes its color gradually makes your app look fantastic!
                        DESC
- 
-  s.homepage         = 'https://github.com/chiragcloudus/MoyaApiStracher'
+  s.version       = '4.2'
+  s.homepage         = 'https://github.com/chiragcloudus/IMAGY'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '<YOUR NAME HERE>' => 'chiragios.cloudus21@gmail.com' }
-  s.source           = { :git => 'https://github.com/chiragcloudus/IMAGY.git', :tag => s.version.to_s }
+  s.author           = { 'cp' => 'chiragios.cloudus21@gmail.com' }
+  s.source           = { :git => 'https://github.com/chiragcloudus/IMAGY.git', :tag => '0.0.1' }
  
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'MoyaApiStracher/*.{swift,plist}'
  
 end
