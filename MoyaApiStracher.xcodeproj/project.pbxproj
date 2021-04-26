@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2777826394FEE8CDA1BFA523 /* Pods_MoyaApiStracher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEB8BC3964CC5409754DE2E /* Pods_MoyaApiStracher.framework */; };
+		BDD5832A2632D34E00D13915 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD583292632D34E00D13915 /* AppDelegate.swift */; };
+		BDD5832C2632D34E00D13915 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD5832B2632D34E00D13915 /* SceneDelegate.swift */; };
+		BDD5832E2632D34E00D13915 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD5832D2632D34E00D13915 /* ViewController.swift */; };
+		BDD583312632D34E00D13915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD5832F2632D34E00D13915 /* Main.storyboard */; };
+		BDD583332632D35100D13915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD583322632D35100D13915 /* Assets.xcassets */; };
+		BDD583362632D35100D13915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD583342632D35100D13915 /* LaunchScreen.storyboard */; };
+		BDD583672632DFCD00D13915 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD583662632DFCD00D13915 /* Settings.swift */; };
+		BDD5836B2632DFDF00D13915 /* ChiragService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD5836A2632DFDF00D13915 /* ChiragService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DEB8BC3964CC5409754DE2E /* Pods_MoyaApiStracher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaApiStracher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E4E0ACD1839C9634DB8EADB /* Pods-MoyaApiStracher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaApiStracher.release.xcconfig"; path = "Target Support Files/Pods-MoyaApiStracher/Pods-MoyaApiStracher.release.xcconfig"; sourceTree = "<group>"; };
+		A5F59D30740C6E73241652F1 /* Pods-MoyaApiStracher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaApiStracher.debug.xcconfig"; path = "Target Support Files/Pods-MoyaApiStracher/Pods-MoyaApiStracher.debug.xcconfig"; sourceTree = "<group>"; };
+		BDD583262632D34E00D13915 /* MoyaApiStracher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaApiStracher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD583292632D34E00D13915 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDD5832B2632D34E00D13915 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDD5832D2632D34E00D13915 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDD583302632D34E00D13915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDD583322632D35100D13915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDD583352632D35100D13915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDD583372632D35100D13915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD583662632DFCD00D13915 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		BDD5836A2632DFDF00D13915 /* ChiragService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChiragService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDD583232632D34E00D13915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2777826394FEE8CDA1BFA523 /* Pods_MoyaApiStracher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8145E1330A6C0B8F934984 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5F59D30740C6E73241652F1 /* Pods-MoyaApiStracher.debug.xcconfig */,
+				6E4E0ACD1839C9634DB8EADB /* Pods-MoyaApiStracher.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF9432747BB2128F1518BE9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DEB8BC3964CC5409754DE2E /* Pods_MoyaApiStracher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDD5831D2632D34E00D13915 = {
+			isa = PBXGroup;
+			children = (
+				BDD583282632D34E00D13915 /* MoyaApiStracher */,
+				BDD583272632D34E00D13915 /* Products */,
+				0F8145E1330A6C0B8F934984 /* Pods */,
+				AF9432747BB2128F1518BE9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDD583272632D34E00D13915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD583262632D34E00D13915 /* MoyaApiStracher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDD583282632D34E00D13915 /* MoyaApiStracher */ = {
+			isa = PBXGroup;
+			children = (
+				BDD583692632DFDF00D13915 /* Services */,
+				BDD583652632DFCD00D13915 /* Settings */,
+				BDD583292632D34E00D13915 /* AppDelegate.swift */,
+				BDD5832B2632D34E00D13915 /* SceneDelegate.swift */,
+				BDD5832D2632D34E00D13915 /* ViewController.swift */,
+				BDD5832F2632D34E00D13915 /* Main.storyboard */,
+				BDD583322632D35100D13915 /* Assets.xcassets */,
+				BDD583342632D35100D13915 /* LaunchScreen.storyboard */,
+				BDD583372632D35100D13915 /* Info.plist */,
+			);
+			path = MoyaApiStracher;
+			sourceTree = "<group>";
+		};
+		BDD583652632DFCD00D13915 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BDD583662632DFCD00D13915 /* Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		BDD583692632DFDF00D13915 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BDD5836A2632DFDF00D13915 /* ChiragService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDD583252632D34E00D13915 /* MoyaApiStracher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD5833A2632D35100D13915 /* Build configuration list for PBXNativeTarget "MoyaApiStracher" */;
+			buildPhases = (
+				1F14CBFFB04ABE6C2F3E4C94 /* [CP] Check Pods Manifest.lock */,
+				BDD583222632D34E00D13915 /* Sources */,
+				BDD583232632D34E00D13915 /* Frameworks */,
+				BDD583242632D34E00D13915 /* Resources */,
+				E7B57BBE948509AEFE46F335 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoyaApiStracher;
+			productName = MoyaApiStracher;
+			productReference = BDD583262632D34E00D13915 /* MoyaApiStracher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDD5831E2632D34E00D13915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BDD583252632D34E00D13915 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BDD583212632D34E00D13915 /* Build configuration list for PBXProject "MoyaApiStracher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDD5831D2632D34E00D13915;
+			productRefGroup = BDD583272632D34E00D13915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD583252632D34E00D13915 /* MoyaApiStracher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDD583242632D34E00D13915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD583362632D35100D13915 /* LaunchScreen.storyboard in Resources */,
+				BDD583332632D35100D13915 /* Assets.xcassets in Resources */,
+				BDD583312632D34E00D13915 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F14CBFFB04ABE6C2F3E4C94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoyaApiStracher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B57BBE948509AEFE46F335 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaApiStracher/Pods-MoyaApiStracher-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaApiStracher/Pods-MoyaApiStracher-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoyaApiStracher/Pods-MoyaApiStracher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDD583222632D34E00D13915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD5832E2632D34E00D13915 /* ViewController.swift in Sources */,
+				BDD5832A2632D34E00D13915 /* AppDelegate.swift in Sources */,
+				BDD583672632DFCD00D13915 /* Settings.swift in Sources */,
+				BDD5832C2632D34E00D13915 /* SceneDelegate.swift in Sources */,
+				BDD5836B2632DFDF00D13915 /* ChiragService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDD5832F2632D34E00D13915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD583302632D34E00D13915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDD583342632D35100D13915 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD583352632D35100D13915 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDD583382632D35100D13915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDD583392632D35100D13915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDD5833B2632D35100D13915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F59D30740C6E73241652F1 /* Pods-MoyaApiStracher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CP_SERVER_BASE_URL = "https://pmaker.cloudustechnologies.com";
+				DEVELOPMENT_TEAM = Q7UDSLPH3N;
+				INFOPLIST_FILE = MoyaApiStracher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudus.MoyaApiStracher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Global Cer";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDD5833C2632D35100D13915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4E0ACD1839C9634DB8EADB /* Pods-MoyaApiStracher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CP_SERVER_BASE_URL = "https://pmaker.cloudustechnologies.com";
+				DEVELOPMENT_TEAM = Q7UDSLPH3N;
+				INFOPLIST_FILE = MoyaApiStracher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudus.MoyaApiStracher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Global Cer";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDD583212632D34E00D13915 /* Build configuration list for PBXProject "MoyaApiStracher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD583382632D35100D13915 /* Debug */,
+				BDD583392632D35100D13915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD5833A2632D35100D13915 /* Build configuration list for PBXNativeTarget "MoyaApiStracher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD5833B2632D35100D13915 /* Debug */,
+				BDD5833C2632D35100D13915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDD5831E2632D34E00D13915 /* Project object */;
+}
